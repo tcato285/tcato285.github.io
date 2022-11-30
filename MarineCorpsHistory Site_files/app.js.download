@@ -1,0 +1,2 @@
+
+defineM("facebook-comments",function(c,a,e){a.regExtension({name:"plugin-facebook-comments",events:{preparedComponentParams:function(){var d=a.$componentsParams;c('<p>Create Disqus shortname <a class="disqus-link" href="https://disqus.com/admin/create/">here</a></p>').insertAfter(d.find('[name="shortName"]'));c(".disqus-link").on("click",function(b){b.preventDefault();b.stopPropagation();a.openUrl(b.target.href)})}}})},["jQuery","mbrApp","TR()"]);

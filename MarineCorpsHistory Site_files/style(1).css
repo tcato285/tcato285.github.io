@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Jost-Regular"),
+    url(Jost/Jost-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Jost-RegularItalic"),
+    url(Jost/Jost-RegularItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Jost-SemiBold"),
+    url(Jost/Jost-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Jost-SemiBoldItalic"),
+    url(Jost/Jost-SemiBoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Jost-Bold"),
+    url(Jost/Jost-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Jost-BoldItalic"),
+    url(Jost/Jost-BoldItalic.ttf) format("truetype");
+}
